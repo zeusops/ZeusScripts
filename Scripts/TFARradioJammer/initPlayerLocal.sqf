@@ -1,0 +1,1 @@
+jamRadiosServer = [[missionNamespace getVariable "Jammers"],missionNamespace getVariable "JammerRadius", missionNamespace getVariable "JammerStrength"] call ZO_fnc_TFARJamRadios;

@@ -1,0 +1,103 @@
+
+
+onLoadMissionTime = 0;
+respawn = 3;
+respawnButton = 0;
+respawnDelay = 900;
+respawnDialog = 0;
+respawnOnStart = -1;
+respawnTemplates[] = {"Spectator"};
+disabledAI = 1;
+briefing = 0;
+debriefing = 0;
+disableChannels[] = {{0,false,true},{1,false,true},{2,true,true},{3,false,true},{4,true,true},{5,true,true},{6,false,true}};
+saving = 1;
+enableDebugConsole = 1;
+
+
+class CfgFunctions
+{
+	class zeusoperations
+	{
+		tag = "ZO";
+
+		class functions
+		{
+			file = "functions";
+			class KeepMapClean;
+			class TFARJamRadios;
+			class RemoveNVGs;
+			class getAllNVGs;
+		};
+	};
+};
+
+class CfgSounds
+{
+	class murmur
+	{
+		name = "murmur"; // Name for mission editor
+		sound[] = {"\Sound\murmur.ogg", 0.8, 1.0};
+		titles[] = {0, ""};
+	};
+	class geiger
+	{
+		name = "geiger"; // Name for mission editor
+		sound[] = {"\Sound\geiger.ogg", .7, 1.0};
+		titles[] = {0, ""};
+	};
+	class spark1
+	{
+		name = "spark1";
+		sound[] = {"\Sound\spark1.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class spark11
+	{
+		name = "spark11";
+		sound[] = {"\Sound\spark11.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class spark2
+	{
+		name = "spark2";
+		sound[] = {"\Sound\spark2.ogg", db+5, 1};
+		titles[] = {};
+	};		
+	class spark22
+	{
+		name = "spark22";
+		sound[] = {"\Sound\spark22.ogg", db+5, 1};
+		titles[] = {};
+	};	
+	class spark3	
+	{
+		name = "spark3";
+		sound[] = {"\Sound\spark3.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class spark4	
+	{
+		name = "spark4";
+		sound[] = {"\Sound\spark4.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class spark5	
+	{
+		name = "spark5";
+		sound[] = {"\Sound\spark5.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class earthquake_02
+	{
+		name = "earthquake_02";
+		sound[] = {"\sound\earthquake_02.ogg",0.7, 1};
+		titles[] = {1, ""};
+	};	
+	class tiuit
+	{
+		name = "tiuit"; // Name for mission editor
+		sound[] = {"\Sound\tiuit.ogg", 0.2, 1.0};
+		titles[] = {0, ""};	
+	};
+};

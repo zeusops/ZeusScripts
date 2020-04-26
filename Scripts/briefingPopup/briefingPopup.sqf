@@ -1,0 +1,1 @@
+titleText ["<t size='7' color='#ff0000'>Briefing</t><br/><t size='3' color='#ffffff'>Mute your microphones please!</t></br>", "PLAIN", -1, false, true]; titleFadeOut 7;

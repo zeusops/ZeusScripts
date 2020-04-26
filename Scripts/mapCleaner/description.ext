@@ -1,0 +1,13 @@
+class CfgFunctions
+{
+	class zeusoperations
+	{
+		tag = "ZO";
+
+		class functions
+		{
+			file = "functions";
+			class KeepMapClean;
+		};
+	};
+};
