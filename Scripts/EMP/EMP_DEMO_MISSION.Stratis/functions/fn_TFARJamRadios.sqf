@@ -9,7 +9,6 @@ NOTE: It is recommended to call this script from initPlayerLocal.sqf if you want
 
 Changes made by Kasteelharry:
 - Made the interference an exponential function and not a linear function 
-- Made it into a function instead of an script
 
 
 Parameter(s):
@@ -17,7 +16,7 @@ Parameter(s):
 1: NUMBER (Optional)- Range of the jammer in Meters. Default is 1000.
 2: NUMBER (Optional)- Strength of the jammer. Default is 50.
 3: BOOL (Optional)- Enable Debug. Default is False.
-Example: jamRadios = [[JAMMER],500] call ZO_fnc_TFARJamRadios;
+Example: jamRadios = [[JAMMER],500] execVM "TFARjamRadios.sqf";
 */
 //compare distances between jammers and player to find nearest jammer and set it as _jammer
 
@@ -54,10 +53,6 @@ fn_debug = {
 	systemChat format ["Distance: %1, Percent: %2, Interference: %3, Send Interference: %4", _dist,  100 * _distPercent, _interference, _sendInterference];
 	systemChat format ["Active Jammer: %1, Jammers: %2",_jammer, _jammers];
 
-};
-fn_sleep = {
-	_sleepTime = param[0, 5];
-	sleep _sleepTime;
 };
 
 ////////////////////////////////////////////////
@@ -101,7 +96,7 @@ while {alive _jammer} do
 		[] call fn_debug;
 	};
     // Sleep 5 seconds before running again
-    	[5] call fn_sleep;
+    sleep 5.0;
 	
 	//Only run this if there are multiple jammers.
 	if (count _jammers > 1) then {

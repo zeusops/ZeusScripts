@@ -1,6 +1,6 @@
 # Arma 3 Electromagnetic Pulse (EMP) multiplayer port
 
-A modified version of the Arma 3 EMP script by Aliascartoons on [Armaholic](http://www.armaholic.com/page.php?id=34293). Edited by Kasteelharry, with some code by [MisterHLunaticWraith](https://github.com/MisterHLunaticwraith) in his [MRHMilsimTools](https://github.com/MisterHLunaticwraith) mod, for useage in multiplayer and to be used in combination with the TFAR jamming script by Rebel12340 on [Armaholic](http://www.armaholic.com/page.php?id=32660). This script has been developed for the missions held by the Arma 3 Unit [Zeus Operations](Zeusops.com) each weekend on their servers.
+A modified version of the Arma 3 EMP script by Aliascartoons on [Armaholic](http://www.armaholic.com/page.php?id=34293). Edited by Kasteelharry for useage in multiplayer and to be used in combination with the TFAR jamming script by Rebel12340 on [Armaholic](http://www.armaholic.com/page.php?id=32660). This script has been developed for the missions held by the Arma 3 Unit [Zeus Operations](https://www.zeusops.com/#home) each weekend on their servers.
 
 ## Features
 
@@ -58,7 +58,3 @@ If you want to change the types of things/entities that are affected by the blas
 ## Contact
 
 For any questions about this project feel free to send me an [email.](mailto:g.samuel.cooper@gmail.com?[GitHub]%20Arma%20EMP%20Script)
-
-## Made by
-
-[Sam Cooper](https://github.com/kasteelharry)

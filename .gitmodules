@@ -1,0 +1,6 @@
+[submodule "EMP"]
+	path = Scripts/EMP
+	url = https://github.com/kasteelharry/Arma3EMPmultiplayer
+[submodule "Scripts/mapRestriction"]
+	path = Scripts/mapRestriction
+	url = https://github.com/zeusops/Arma3MapRestriction

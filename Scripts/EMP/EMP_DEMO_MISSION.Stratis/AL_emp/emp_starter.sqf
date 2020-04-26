@@ -12,7 +12,7 @@ _player_viz = _this select 3;
 _dam_unit	= _this select 4;
 
 //Makes a list of all the NVG's that could be used in the mission.
-[] spawn ZO_fnc_getAllNVGs;
+[] spawn kast_fnc_getAllNVGs;
 
 //if (!isNil {_obj_emp getVariable "is_ON"}) exitwith {};
 _obj_emp setVariable ["is_ON",true,true];
@@ -29,5 +29,5 @@ waitUntil {!isNil "emp_dam"};
 [] execvm "AL_emp\emp_effect.sqf";
 
 //calls the jamming script, has to be run local to have any effect. Thus run the starting command global.
-jamRadiosServer = [[missionNamespace getVariable "Jammers"],missionNamespace getVariable "JammerRadius", missionNamespace getVariable "JammerStrength"] call ZO_fnc_TFARJamRadios;
+jamRadiosServer = [[missionNamespace getVariable "Jammers"],missionNamespace getVariable "JammerRadius", missionNamespace getVariable "JammerStrength"] call kast_fnc_TFARJamRadios;
 missionNamespace setVariable ["DisableMapRestrictor", false, true];

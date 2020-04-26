@@ -7,4 +7,4 @@
 ///////////////////////////////////
 
 //Removes the markers in the local channels
-[] spawn ZO_fnc_KeepMapClean;
+[] spawn kast_fnc_KeepMapClean;

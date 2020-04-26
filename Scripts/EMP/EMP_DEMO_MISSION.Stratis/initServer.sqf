@@ -39,7 +39,7 @@ missionNamespace setVariable ["WhiteListedIDs", [], true];
 missionNamespace setVariable ["DisableMapRestrictor", true, true];
 missionNameSpace setVariable ["WhitelistedGroup",_AllowedToDrawGroup, true];
 
-[] spawn ZO_fnc_KeepMapClean;
+[] spawn kast_fnc_KeepMapClean;
 
 /*
     Will work from version 1.96 and onwards:

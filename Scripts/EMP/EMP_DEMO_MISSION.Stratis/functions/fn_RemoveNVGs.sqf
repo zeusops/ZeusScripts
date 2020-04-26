@@ -6,7 +6,7 @@
 	Parameters:
 	0 - <OBJECT> - Unit to remove NVGs from.
 	Example(s):
-	[player] call ZO_fnc_removeNVGs;
+	[player] call Kast_fnc_removeNVGs;
 */
 
 params ["_unit"];

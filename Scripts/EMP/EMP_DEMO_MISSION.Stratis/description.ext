@@ -17,9 +17,9 @@ enableDebugConsole = 1;
 
 class CfgFunctions
 {
-	class zeusoperations
+	class kasteelharry
 	{
-		tag = "ZO";
+		tag = "kast";
 
 		class functions
 		{

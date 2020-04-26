@@ -51,7 +51,7 @@ _delay_check = 0.01;
 	_x unassignItem "ItemRadio";
 	_x removeItem "ItemRadio";
 	_x removePrimaryWeaponItem "acc_pointer_IR"; 
-	_removeNVG = [_x] call ZO_fnc_RemoveNVGs;
+	_removeNVG = [_x] call kast_fnc_RemoveNVGs;
 	if (headgear _x in special_helmet_emp) then 
 	{
 		removeHeadgear _x
