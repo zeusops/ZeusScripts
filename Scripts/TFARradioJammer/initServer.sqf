@@ -29,5 +29,3 @@ _jammerStrength = 100; //Strength of the jammer, max is 100
 missionNamespace setVariable ["Jammers", _jammerNames, true];
 missionNamespace setVariable ["JammerRadius", _jammerRadius, true];
 missionNamespace setVariable ["JammerStrength", _JammerStrength, true];
-
-[] spawn ZO_fnc_KeepMapClean;
