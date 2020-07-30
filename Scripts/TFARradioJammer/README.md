@@ -11,7 +11,7 @@ This script is based upon the amazing TFAR jamming script made by Rebel12340 on 
 
 ## Usage
 
-The script runs from mission start. To start the script during the mission run:
+The script runs from mission start. To start the script during the mission run global:
 
 ```sqf
 
