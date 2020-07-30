@@ -15,7 +15,7 @@ The script runs from mission start. To start the script during the mission run g
 
 ```sqf
 
-jamRadiosServer = [[missionNamespace getVariable "Jammers"],missionNamespace getVariable "JammerRadius", missionNamespace getVariable "JammerStrength"] call ZO_fnc_TFARJamRadios;
+jamRadiosServer = [missionNamespace getVariable "Jammers",missionNamespace getVariable "JammerRadius", missionNamespace getVariable "JammerStrength"] call ZO_fnc_TFARJamRadios;
 
 ```
 
