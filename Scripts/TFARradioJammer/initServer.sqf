@@ -13,7 +13,7 @@
 
 _jammerNames = [jammer1, jammer2, etc]; //sets the jammer variable names
 
-_jammerRadius = _EMP_Range; //Sets jammer radius the same as EMP radius
+_jammerRadius = 1000; //Sets jammer radius
 _jammerStrength = 100; //Strength of the jammer, max is 100
 
 
